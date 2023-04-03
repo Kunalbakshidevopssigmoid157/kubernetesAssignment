@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tomcat-deployment
+  labels: 
+    purpose: deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tomcat-deploy
+  template:
+    metadata:
+      name: tomcat-dep
+      labels:
+        app: tomcat-deploy
+    spec:
+      containers:
+      - name: tomcat
+        image: tomcat:11.0
+        ports:
+        - containerPort: 8080

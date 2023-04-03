@@ -1,0 +1,12 @@
+
+FROM gcr.io/kodekloud/centos-ssh-enabled:tomcat
+
+
+
+
+COPY /target/docker-java-sample-webapp-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/
+
+
+
+
+EXPOSE 8080

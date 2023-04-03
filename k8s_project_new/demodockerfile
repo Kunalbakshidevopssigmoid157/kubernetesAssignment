@@ -1,0 +1,9 @@
+FROM docker.io/library/tomcat:9.0
+
+LABEL maintainer="bkunalsigmoidanalytics.com"
+
+CMD ["catalina.sh","run"]
+
+COPY /target/docker-java-sample-webapp-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/
+
+EXPOSE 8080
