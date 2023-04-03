@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: tomcat:11.0
+        image: kunalsigmoid157/k8s_pro:latest 
         ports:
         - containerPort: 8080
