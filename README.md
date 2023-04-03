@@ -226,9 +226,15 @@ kubectl cluster-info
 
 
 kubectl get deployments
+ 
  kubectl get service
+ 
  kubectl create -f deployment tomcat-deployment
-  kubectl create -f deployment.yml
-   kubectl create -f service.yml
-    kubectl get service
-  minikube service tomcat-service --url
+ 
+ kubectl create -f deployment.yml
+ 
+ kubectl create -f service.yml
+ 
+ kubectl get service
+ 
+ minikube service tomcat-service --url
