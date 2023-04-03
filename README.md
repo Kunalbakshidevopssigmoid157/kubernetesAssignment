@@ -1,10 +1,11 @@
 # kubernetesAssignment
 
-**# We have one java web project folder. And the folder contains the all depenedecies , libraries,configuration files and source code & test files in developer site/development server. Then we decide to deploy the project in operation site/operstion server.
+# We have one java web project folder. And the folder contains the all depenedecies , libraries,configuration files and source code & test files in developer site/development server. Then we decide to deploy the project in operation site/operstion server.
 
 # We can do this with help of maven. Maven is the project management tools which only java projects. Maven is create type of compress file : jar (java archieve) and war (web archieve).
 
-# Then we first inatall the maven tools.**
+Then we first inatall the maven tools.
+
 Steps Installization of Maven 
 
 Install Java
