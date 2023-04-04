@@ -162,6 +162,7 @@ With VirtualBox set up, move on to installing Minikube on your Ubuntu system.
 wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 
 Downloading the Minikube binary to install Minikube on Ubuntu 18.04.
+
 2. Copy the downloaded file and store it into the /usr/local/bin/minikube directory with:
 
 sudo cp minikube-linux-amd64 /usr/local/bin/minikube
