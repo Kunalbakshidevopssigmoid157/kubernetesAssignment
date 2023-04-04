@@ -226,6 +226,7 @@ kubectl cluster-info
 
 
 **Run the Kubernets for this java web project**
+
 kubectl get deployments
  
  kubectl get service
