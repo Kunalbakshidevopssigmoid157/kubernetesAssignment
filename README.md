@@ -69,20 +69,26 @@ COPY /target/docker-java-sample-webapp-1.0-SNAPSHOT.war /usr/local/tomcat/webapp
 
 
 EXPOSE 8080
+
 #To give the port to tomcat server
 
 #Then we create the image of this dockerprojectfile
+
 docker build . -f dockerprojectfile -t k8s_pro
 
 #Then we upload this image the dockerhub
 #First go the login the dockerhub
+
 docker login
+
 #Then give user credentials
 
 #tag this dockerprojectfile image
+
 docker tag k8s_pro:latest kunalsigmoid157/k8s_pro
 
 #Push the image in dockehub repository
+
 docker push kunalsigmoid157/demodockerimage:kunalsigmoid157/k8s_pro
 
 #Then we create the dockerfile of this project.
