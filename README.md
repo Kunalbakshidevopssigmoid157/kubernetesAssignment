@@ -92,8 +92,11 @@ docker tag k8s_pro:latest kunalsigmoid157/k8s_pro
 docker push kunalsigmoid157/demodockerimage:kunalsigmoid157/k8s_pro
 
 #Then we create the dockerfile of this project.
+
 touch deployment
+
 vi deployment.yml
+
 #Add the following lines:
 apiVersion: apps/v1
 kind: Deployment
