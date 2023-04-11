@@ -129,7 +129,7 @@ vi service.yml
 #Add the following lines:
 apiVersion: v1
 kind: Service
-metadata:
+metadata:kubectl get deployments
   name: tomcat-service
   labels:
     purpose: service
@@ -175,7 +175,7 @@ Downloading the Minikube binary to install Minikube on Ubuntu 18.04.
 2. Copy the downloaded file and store it into the /usr/local/bin/minikube directory with:
 
 sudo cp minikube-linux-amd64 /usr/local/bin/minikube
-
+kubectl get deployments
 There will be no output if the command was executed correctly.
 
 3. Next, give the file executive permission using the chmod command:
@@ -235,6 +235,9 @@ kubectl cluster-info
 
 
 **Run the Kubernets for this java web project**
+
+
+minikube start
 
 kubectl get deployments
  
